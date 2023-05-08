@@ -1,4 +1,74 @@
 
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+p, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paw-holder{
+    width: 100%;
+}
+.paw-icon{
+    width: 100%;
+    max-width: 120px;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFFFF3;
+}
+
+.big-main-img-holder {
+    width: 100%;
+}
+
+.big-main-img-row {
+    padding-left: 0px;
+    border: dotted black;
+}
+
+.big-main-img {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    background-color: blueviolet;
+    object-fit: cover;
+    border-radius: 60px;
+    border: solid 2px #99DBFF;
+    
+}
+.prod-by-anim-row {
+    border: dotted white;
+}
+
+.services-text {
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen (max-width = 1px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+.services-row{
+    border: dotted blue;
+}
+
+
 /* ********************* CAROUSEL *************************/
 
 .carousel-inner .carousel-item.active,
