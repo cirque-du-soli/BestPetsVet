@@ -8,8 +8,9 @@ header {
 
 #navbar {
     background-color: #FFE8C5;
-    border-style: none;
-    border:#363636;
+    border-bottom-style:solid;
+    border-color:#363636;
+    border-bottom-width:0.15em;
 }
 
 main {
@@ -60,6 +61,17 @@ h3, h4, h5, h6 {
 
 .bgbtn1:active {
     background-color: #000000;
+}
+
+.nav-link:hover{
+  color:#454545;
+  font-weight:800;
+  filter:drop-shadow(1px 1px 1px #dfc59f);
+}
+
+.nav-link{
+  color:#363636;
+  font-weight:500;
 }
 
 
