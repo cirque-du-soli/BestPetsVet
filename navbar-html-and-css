@@ -1,0 +1,57 @@
+---------------------------------------------
+                  HTML
+---------------------------------------------
+   
+   
+   <div id=mainheader class="row py-1">
+        <div class="col-2 offset-1 px-1 d-flex align-items-center">
+            <img class="img-fluid" src="images/logosm.png" alt="Fair Pets Vet">
+        </div>
+        <div class="col-6 px-1 d-flex flex-column">
+            <h1 class="pt-3">Fair Pets Vet</h1>
+            <p class="mb-0">All Kinds of Care for All Kinds of Pets</p>
+        </div>
+        <div class="col-2 px-1 d-flex align-items-center justify-content-center">
+            <a href="#" class="btn btn-primary">Emergency</a>
+        </div>
+    </div>
+
+    <div id=navbar class="row">
+        <header class="d-flex justify-content-center py-1">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page"><i
+                            class="bi-house-heart-fill"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Staff</a></li>
+            </ul>
+        </header>
+    </div>
+    
+    
+    
+---------------------------------------------    
+                  CSS
+---------------------------------------------
+   
+.nav-link:hover
+{
+  color:#454545;
+  font-weight:800;
+  filter:drop-shadow(1px 1px 1px #dfc59f);
+}
+
+.nav-link
+{
+  color:#363636;
+  font-weight:500;
+
+}
+
+#navbar
+{
+  background-color:#FFe8C5;
+  border-bottom-style:solid;
+  border-color:#363636;
+  border-bottom-width:0.15em
+}
